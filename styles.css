@@ -1061,11 +1061,11 @@ td {
   @media screen and (max-width: 480px) {
   
     #board {
-       transform: scale(.70);   
+       transform: scale(.60);   
     }
     
     #control {
-      transform: scale(.70);
+      transform: scale(.60);
     }
     body {
       width:fit-content;
