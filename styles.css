@@ -11,19 +11,17 @@ body {
 
   } 
 }
-@media screen and (max-width: 880px) {
-  body {
-     transform: scale(.55);
 
-
-
-  } 
-}
 @media screen and (max-width: 480px) {
 
-  body {
-     transform: scale(.40);   
-     height: 200px;
+  #board {
+     transform: scale(.90);   
+  }
+  #setup {
+    
+  }
+  #control {
+    transform: scale(.90);
   }
 
 }
