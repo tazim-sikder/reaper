@@ -1065,7 +1065,19 @@ td {
     }
     #setup {
   
-        
+        display: none;
+        margin: 15px;
+        text-align: center;
+        background-color: white;
+        border-radius: 40px;
+        max-width: 450px;
+        min-width: 300px;
+        padding: 30px;
+        /*
+        margin: 110px auto;
+        */
+        position: absolute;
+        left: 0;
         top: 10%;
         right: 0;
         margin-top: -40px;
