@@ -13,19 +13,17 @@ body {
 }
 @media screen and (max-width: 880px) {
   body {
-     transform: scale(.45);   
+     transform: scale(.55);
+
+
 
   } 
 }
 @media screen and (max-width: 480px) {
+
   body {
-     transform: scale(.40);   
-    margin-left: -330px;
-
+     transform: scale(.80);   
   }
-  #board {
-  }
-
 }
 
 td {
