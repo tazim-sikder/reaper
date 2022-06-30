@@ -6,19 +6,19 @@ body {
   background-position-x: -400px;
 }
 @media screen and (max-width: 980px) {
-  html {
+  body {
      transform: scale(.7);   
 
   } 
 }
 @media screen and (max-width: 880px) {
-  html {
+  body {
      transform: scale(.45);   
 
   } 
 }
 @media screen and (max-width: 480px) {
-  html {
+  body {
      transform: scale(.30);   
   }
 
