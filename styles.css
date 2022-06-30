@@ -971,7 +971,7 @@ td {
 
   @media screen and (max-width: 980px) {
 
-    #board {
+    body {
       transform: scale(.90);   
    }
    
