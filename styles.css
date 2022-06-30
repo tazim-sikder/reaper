@@ -1041,11 +1041,11 @@ td {
   @media screen and (max-width: 630px) {
 
     #board {
-      transform: scale(.90);   
+      transform: scale(.80);   
    }
    
    #control {
-     transform: scale(.90);
+     transform: scale(.80);
    }
    body {
      width:fit-content;
@@ -1063,8 +1063,8 @@ td {
     #board {
        transform: scale(.50);   
        margin-left: -3px;
+       margin-bottom: -180px;
     }
-    
     #control {
       transform: scale(.50);
       margin-top: 50px;
@@ -1073,6 +1073,7 @@ td {
       width:fit-content;
      width:auto;
     }
+
     #setup {
   
         display: none;
