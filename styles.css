@@ -974,7 +974,13 @@ td {
     body {
       transform: scale(.80);   
    }
-   
+   #popup {
+    margin-top: 50px;
+    margin-left: 310px;
+    width: 200px;
+    min-width: 200px;
+
+  }
    #control {
      transform: scale(.90);
    }
@@ -1067,7 +1073,6 @@ td {
        transform: scale(.80);   
 
        margin-left: -3px;
-       margin-bottom: -80px;
     }
     #control {
       /*
@@ -1080,7 +1085,7 @@ td {
       width:fit-content;
      width:auto;
     }
-
+  
     #setup {
   
         display: none;
