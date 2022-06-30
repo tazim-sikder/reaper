@@ -1041,11 +1041,11 @@ td {
   @media screen and (max-width: 630px) {
 
     #board {
-      transform: scale(.80);   
+      transform: scale(.90);   
    }
    
    #control {
-     transform: scale(.80);
+     transform: scale(.90);
    }
    body {
      width:fit-content;
@@ -1061,12 +1061,19 @@ td {
   @media screen and (max-width: 480px) {
   
     #board {
+      /*
        transform: scale(.50);   
+       */
+       transform: scale(.70);   
+
        margin-left: -3px;
        margin-bottom: -180px;
     }
     #control {
-      transform: scale(.50);
+      /*
+       transform: scale(.50);   
+      */
+      transform: scale(.70);   
       margin-top: 50px;
     }
     body {
