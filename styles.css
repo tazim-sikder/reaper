@@ -1067,7 +1067,7 @@ td {
     
     #control {
       transform: scale(.50);
-      margin-left: -10px;
+      margin-left: 10px;
 
     }
     body {
