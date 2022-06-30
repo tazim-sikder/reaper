@@ -987,7 +987,6 @@ td {
     }
     body {
       width:fit-content;
-      width: auto;
     }
     #setup {
   
@@ -1007,5 +1006,6 @@ td {
         right: 0;
         margin-left: auto;
         margin-right: auto;
+        margin-left: -40px;
     }
   }
