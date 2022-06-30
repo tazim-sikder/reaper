@@ -997,6 +997,7 @@ td {
       left: 0;
       top: 20%;
       right: 0;
+      margin-top: 140px;
       margin-left: 200px;
   }
 
@@ -1030,7 +1031,10 @@ td {
       left: 0;
       top: 20%;
       right: 0;
-      margin-left: 130px;
+      
+      margin-left: 200px;
+      margin-top: 140px;
+    
   }
 
   }
@@ -1048,8 +1052,9 @@ td {
      width:auto;
    }
     #setup {
+      margin-top: 140px;
 
-      margin-left: 30px;
+      margin-left: 200px;
   }
 
   }
@@ -1084,6 +1089,6 @@ td {
         top: 40%;
         right: 0;
         margin-top: 140px;
-        margin-left: 200px;
+        margin-left: 220px;
     }
   }
