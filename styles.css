@@ -1062,10 +1062,13 @@ td {
   
     #board {
        transform: scale(.50);   
+       margin-left: -20px;
     }
     
     #control {
       transform: scale(.50);
+      margin-left: -20px;
+
     }
     body {
       width:fit-content;
