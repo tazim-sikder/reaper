@@ -19,7 +19,11 @@ body {
 }
 @media screen and (max-width: 480px) {
   body {
-     transform: scale(.30);   
+     transform: scale(.40);   
+    margin-left: -330px;
+
+  }
+  #board {
   }
 
 }
