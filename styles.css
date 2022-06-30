@@ -1064,16 +1064,16 @@ td {
       /*
        transform: scale(.50);   
        */
-       transform: scale(.70);   
+       transform: scale(.80);   
 
        margin-left: -3px;
-       margin-bottom: -180px;
+       margin-bottom: -80px;
     }
     #control {
       /*
        transform: scale(.50);   
       */
-      transform: scale(.70);   
+      transform: scale(.80);   
       margin-top: 50px;
     }
     body {
