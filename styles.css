@@ -985,7 +985,9 @@ td {
     #control {
       transform: scale(.90);
     }
-  
+    body {
+      width:fit-content;
+    }
     #setup {
   
         display: none;
