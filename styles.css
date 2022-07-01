@@ -1139,8 +1139,10 @@ td {
   }
   @media screen and (max-width: 480px) {
 
+    * {
+      overflow-x:hidden;
+    }
     body {
-      overflow-x: hidden;
       transform: scale(.50);   
       
    }
