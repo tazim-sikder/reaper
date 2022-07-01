@@ -881,6 +881,7 @@ td {
 }
 .bottom-card {
   position: absolute;
+  height: 122px;
   height: 126px;
   height: 128px;
   left: -1.1px;
@@ -895,6 +896,7 @@ td {
 }
 .top-card {
   position: absolute;
+  height: 122px;
   height: 126px;
   height: 128px;
   left: -1.1px;
@@ -908,6 +910,7 @@ td {
 }
 .corner-card {
   position: absolute;
+  height: 122px;
   height: 126px;
   height: 128px;
   left: -1.1px;
@@ -940,6 +943,7 @@ td {
 }
 .right-card {
   position: absolute;
+  height: 122px;
   height: 126px;
   height: 128px;
   transform: rotate(-90deg);
@@ -956,6 +960,7 @@ td {
 }
 .left-card {
   position: absolute;
+  height: 122px;
   height: 126px;
   height: 128px;
   transform: rotate(90deg);
@@ -967,7 +972,9 @@ td {
 	background-color:#efe9d5;
 }
 #start-btn {
-
+  /*
+	background-color: #305bc9;
+  */
   background-color: #6e0707;
 
 
@@ -980,11 +987,13 @@ td {
 	cursor: pointer;
   }
   #start-btn:hover {
+	background-color: #5b89ff;
   background-color: #6e0707;
 
 
   }
   #nextbutton {
+	background-color: #305bc9;
   background-color: #6e0707;
 
 	color: white;
@@ -995,6 +1004,7 @@ td {
 	cursor: pointer;
   }
   #proposetradebutton, #canceltradebutton {
+	background-color: #305bc9;
   background-color: #6e0707;
 
 	color: white;
@@ -1005,6 +1015,7 @@ td {
 	cursor: pointer;
   }
   #viewstats {
+	background-color: #305bc9;
 	background-color: #6e0707;
 
 	color: white;
@@ -1135,7 +1146,7 @@ td {
       /*
        transform: scale(.50);   
        */
-       transform: scale(.70);   
+       transform: scale(.80);   
 
        margin-left: 33px;
     }
@@ -1143,7 +1154,7 @@ td {
       /*
        transform: scale(.50);   
       */
-      transform: scale(.70);   
+      transform: scale(.80);   
       margin-top: 50px;
       margin-left: 33px;
 
