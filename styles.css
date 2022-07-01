@@ -840,7 +840,7 @@ td {
   user-select: none;
   cursor: move;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   #moneybarwrap {
       position: absolute;
   min-width: 135px;
@@ -855,7 +855,7 @@ td {
   top: 0;
   -webkit-user-select: none;
   user-select: none;
-      right: 45%;
+      right: 545px;
   }   
 }
 
@@ -1050,11 +1050,13 @@ td {
       transform: scale(.70);   
    }
    #board, #popup, #control {
-      transform: scale(.50);
-      margin-left: -50px;
+      transform: scale(.70);
+      margin-left: -52px;
    }
    #setup {
     min-width: 330px;
    }
-   
+   #board {
+    position: relative;
+   }
   }
