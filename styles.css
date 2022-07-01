@@ -1143,12 +1143,12 @@ td {
       
    }
    #board {
-    transform: scale(.55);
-    margin-left: -180px;
+    transform: scale(.50);
+    margin-left: -190px;
    }
    #control {
-    transform: scale(.55);
-    margin-left: -180px;
+    transform: scale(.50);
+    margin-left: -190px;
 
    }
    #setup {
