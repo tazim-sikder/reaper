@@ -1031,7 +1031,7 @@ td {
 }
 
 @media screen and (max-width: 1000px) {
-  body {
+  html, body {
     max-width: 100%;
     overflow-x: hidden;
   }
