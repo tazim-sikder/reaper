@@ -1048,7 +1048,7 @@ td {
     body {
     
       transform: scale(.80);   
-      
+      margin-left: -90px;
    }
    /**
    #popup {
@@ -1141,7 +1141,7 @@ td {
  
     body {
       transform: scale(.70);   
-      margin: 0 auto;
+
       
    }
   
