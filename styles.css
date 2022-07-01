@@ -847,10 +847,10 @@ td {
     position: relative;
     min-width: 135px;
     z-index: -1;
-    top: 60px;
+    top: 850px;
     -webkit-user-select: none;
     user-select: none;
-    right: 705px;
+    right: 655px;
   }
 }
 
@@ -1040,7 +1040,7 @@ td {
   #board,
   #popup,
   #control {
-    transform: scale(0.6);
+    transform: scale(0.7);
     margin-left: -122px;
   }
   #setup {
