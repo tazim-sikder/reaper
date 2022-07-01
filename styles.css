@@ -1103,7 +1103,7 @@ td {
       top: 20%;
       right: 0;
       
-      margin-left: 70px;
+      margin-left: 200px;
       margin-top: 140px;
     
   }
@@ -1125,11 +1125,11 @@ td {
     #setup {
       margin-top: 140px;
 
-      margin-left: 50px;
+      margin-left: 200px;
   }
 
   }
-  @media screen and (max-width: 486px) {
+  @media screen and (max-width: 480px) {
   
     #board {
       /*
@@ -1159,14 +1159,14 @@ td {
         background-color: white;
         border-radius: 40px;
         max-width: 450px;
-        min-width: 400px;
+        min-width: 300px;
         padding: 30px;
         /*
         margin: 110px auto;
         */
         position: absolute;
         left: 0;
-        top: 20%;
+        top: 40%;
         right: 0;
         margin-top: 50px;
         margin-left: -10px;
