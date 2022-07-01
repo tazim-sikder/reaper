@@ -1141,7 +1141,7 @@ td {
  
     body {
       transform: scale(.60);   
-      margin-left: -240px;
+      margin-left: -200px;
       
    }
  /*
@@ -1184,6 +1184,6 @@ td {
     */
     #setup {
       margin-top: 140px;
-      margin-left: -30px;
+      margin-left: 10px;
     }
   }
