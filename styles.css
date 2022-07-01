@@ -1146,14 +1146,14 @@ td {
       /*
        transform: scale(.50);   
        */
-       transform: scale(.5);   
+       transform: scale(.70);   
       margin-left: -90px;
     }
     #control {
       /*
        transform: scale(.50);   
       */
-      transform: scale(.5);   
+      transform: scale(.70);   
       margin-top: 50px;
       margin-left: 33px;
 
