@@ -1031,6 +1031,10 @@ td {
 }
 
 @media screen and (max-width: 1000px) {
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
   #setup,
   #board,
   #popup,
@@ -1040,7 +1044,7 @@ td {
   #board,
   #popup,
   #control {
-    transform: scale(0.4);
+    transform: scale(0.6);
     margin-left: -172px;
   }
   #popup {
