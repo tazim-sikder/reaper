@@ -847,10 +847,10 @@ td {
     position: relative;
     min-width: 135px;
     z-index: -1;
-    top: 0;
+    top: 70px;
     -webkit-user-select: none;
     user-select: none;
-    right: 545px;
+    right: 705px;
   }
 }
 
@@ -1035,13 +1035,13 @@ td {
   #board,
   #popup,
   #control {
-    transform: scale(0.5);
+    transform: scale(0.7);
   }
   #board,
   #popup,
   #control {
     transform: scale(0.5);
-    margin-left: -82px;
+    margin-left: -182px;
   }
   #setup {
     min-width: 330px;
@@ -1052,6 +1052,5 @@ td {
   #board {
     position: relative;
     margin-bottom: -130px;
-    margin-top: 60px;
   }
 }
