@@ -1144,7 +1144,11 @@ td {
       transform: scale(.70);   
       */
      width: 70vw;  
-     
+     height: 70vw;
+   }
+   * {
+    width: 90vw;
+    height: 90vw;
    }
   
  /*
