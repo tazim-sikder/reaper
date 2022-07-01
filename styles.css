@@ -1046,9 +1046,9 @@ td {
   @media screen and (max-width: 980px) {
 
     body {
-      /*
+      
       transform: scale(.80);   
-      */
+      
    }
    #popup {
     margin-top: 50px;
