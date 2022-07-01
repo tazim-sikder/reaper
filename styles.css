@@ -1140,9 +1140,11 @@ td {
   @media screen and (max-width: 480px) {
  
     body {
+      /*
       transform: scale(.70);   
-
-      
+      */
+     width: 90vw;  
+     
    }
   
  /*
@@ -1183,8 +1185,4 @@ td {
         margin-left: 200px;
     }
     */
-    #setup {
-      margin-top: 140px;
-      margin-left: 10px;
-    }
   }
