@@ -1049,6 +1049,9 @@ td {
     
       transform: scale(.70);   
    }
+   #board, #popup, #control {
+    margin: 0 auto;
+   }
    #setup {
     min-width: 330px;
    }
