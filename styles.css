@@ -6,7 +6,6 @@ body {
   min-width: 1075px;
 }
 
-
 td {
   font-size: 12px;
   font-family: arial, sans-serif;
@@ -32,8 +31,6 @@ td {
   margin-left: auto;
   margin-right: auto;
 }
-
-
 
 #propertystats {
   margin-right: 110px;
@@ -802,8 +799,6 @@ td {
   width: 15px;
 }
 
-
-
 #moneybar {
   float: right;
   border: 0px solid black;
@@ -842,21 +837,21 @@ td {
 }
 @media screen and (max-width: 1000px) {
   #moneybarwrap {
-      position: absolute;
-  min-width: 135px;
-  top: 0px;
-  right: 0px;
-  -webkit-user-select: none;
-  user-select: none;
+    position: absolute;
+    min-width: 135px;
+    top: 0px;
+    right: 0px;
+    -webkit-user-select: none;
+    user-select: none;
 
-  position: relative;
-  min-width: 135px;
-  z-index: -1;
-  top: 0;
-  -webkit-user-select: none;
-  user-select: none;
-      right: 545px;
-  }   
+    position: relative;
+    min-width: 135px;
+    z-index: -1;
+    top: 0;
+    -webkit-user-select: none;
+    user-select: none;
+    right: 545px;
+  }
 }
 
 .board-center {
@@ -922,7 +917,7 @@ td {
   color: rgba(96, 1, 1, 0);
 }
 .the-top2 {
-  left: -.6px;
+  left: -0.6px;
   top: -4px;
 }
 .the-top1 {
@@ -969,7 +964,7 @@ td {
   top: -28px;
 }
 #board {
-	background-color:#efe9d5;
+  background-color: #efe9d5;
 }
 #start-btn {
   /*
@@ -977,86 +972,86 @@ td {
   */
   background-color: #6e0707;
 
-
-	color: white;
-	border-radius: 20px;
-	font-size: 18px;
-	padding: 5px 10px;
-	font-weight: 800;
-	transition: .2s ease-in-out;
-	cursor: pointer;
-  }
-  #start-btn:hover {
-	background-color: #5b89ff;
+  color: white;
+  border-radius: 20px;
+  font-size: 18px;
+  padding: 5px 10px;
+  font-weight: 800;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+#start-btn:hover {
+  background-color: #5b89ff;
+  background-color: #6e0707;
+}
+#nextbutton {
+  background-color: #305bc9;
   background-color: #6e0707;
 
-
-  }
-  #nextbutton {
-	background-color: #305bc9;
+  color: white;
+  border-radius: 20px;
+  font-size: 13px;
+  padding: 5px 10px;
+  font-weight: 800;
+  cursor: pointer;
+}
+#proposetradebutton,
+#canceltradebutton {
+  background-color: #305bc9;
   background-color: #6e0707;
 
-	color: white;
-	border-radius: 20px;
-	font-size: 13px;
-	padding: 5px 10px;
-	font-weight: 800;
-	cursor: pointer;
-  }
-  #proposetradebutton, #canceltradebutton {
-	background-color: #305bc9;
+  color: white;
+  border-radius: 20px;
+  font-size: 13px;
+  padding: 5px 10px;
+  font-weight: 800;
+  cursor: pointer;
+}
+#viewstats {
+  background-color: #305bc9;
   background-color: #6e0707;
 
-	color: white;
-	border-radius: 20px;
-	font-size: 13px;
-	padding: 5px 10px;
-	font-weight: 800;
-	cursor: pointer;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.menu-item {
+  background-color: #6e0707;
+}
+#yeahhh {
+  touch-action: none;
+  user-select: none;
+  cursor: move;
+}
+#moneybarwrap {
+  cursor: move;
+
+  /* Doesn't allow to select the content inside */
+  user-select: none;
+}
+
+@media screen and (max-width: 1000px) {
+  #setup,
+  #board,
+  #popup,
+  #control {
+    transform: scale(0.7);
   }
-  #viewstats {
-	background-color: #305bc9;
-	background-color: #6e0707;
-
-	color: white;
-	border-radius: 20px;
-	cursor: pointer;
+  #board,
+  #popup,
+  #control {
+    transform: scale(0.7);
+    margin-left: -82px;
   }
- .menu-item {
-	background-color: #6e0707;
-
- }
-  #yeahhh {
-    touch-action: none;
-      user-select: none;
-      cursor: move;
-      
-  }
-  #moneybarwrap {
-    cursor: move;
-
-   
-
-    /* Doesn't allow to select the content inside */
-    user-select: none;
-  }
-
-
-
-  @media screen and (max-width: 1000px) {
-
-    #setup, #board, #popup, #control{
-    
-      transform: scale(.70);   
-   }
-   #board, #popup, #control {
-      transform: scale(.70);
-      margin-left: -52px;
-   }
-   #setup {
+  #setup {
     min-width: 330px;
-   }
-   #board {
-    position: relative;
-   }
   }
+  #control {
+    margin-top: 60px;
+  }
+  #board {
+    position: relative;
+    margin-bottom: -130px;
+    margin-top: 60px;
+  }
+}
