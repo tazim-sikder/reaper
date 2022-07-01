@@ -1143,12 +1143,15 @@ td {
       /*
       transform: scale(.70);   
       */
-     width: 50vw;  
+     width: 40vw;  
    }
    #board {
     transform: scale(.8);
    }
    #control {
+    transform: scale(.8);
+   }
+   #setup {
     transform: scale(.8);
    }
  /*
