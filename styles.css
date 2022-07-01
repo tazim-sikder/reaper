@@ -1103,11 +1103,7 @@ td {
       top: 20%;
       right: 0;
       
-<<<<<<< HEAD
-      margin-left: 100px;
-=======
       margin-left: 200px;
->>>>>>> parent of e901da5 (changes)
       margin-top: 140px;
     
   }
@@ -1129,11 +1125,7 @@ td {
     #setup {
       margin-top: 140px;
 
-<<<<<<< HEAD
-      margin-left: 30px;
-=======
       margin-left: 200px;
->>>>>>> parent of e901da5 (changes)
   }
 
   }
@@ -1169,21 +1161,16 @@ td {
         background-color: white;
         border-radius: 40px;
         max-width: 450px;
-        min-width: 300px;
+        min-width: 400px;
         padding: 30px;
         /*
         margin: 110px auto;
         */
         position: absolute;
         left: 0;
-        top: 40%;
+        top: 20%;
         right: 0;
-<<<<<<< HEAD
-        margin-top: 20px;
-        margin-left: -10px;
-=======
-        margin-top: 140px;
-        margin-left: 220px;
->>>>>>> parent of e901da5 (changes)
+        margin-top: 10px;
+        margin-left: 10px;
     }
   }
