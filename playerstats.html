@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <style>
+        #moneybar {
+            float: right;
+            border: 0px solid black;
+            background-color: white;
+            margin: 15px;
+            border-radius: 5px;
+            display: none;
+            z-index: 14;
+            position: relative;
+            cursor: default;
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        #moneybar table {
+            font-weight: bold;
+            border-spacing: 1px;
+        }
+
+        #moneybarwrap {
+            position: absolute;
+            min-width: 135px;
+            top: 0px;
+            right: 0px;
+            -webkit-user-select: none;
+            user-select: none;
+
+            position: relative;
+            min-width: 135px;
+            z-index: -1;
+            top: 0;
+            right: 45px;
+            -webkit-user-select: none;
+            user-select: none;
+            cursor: move;
+        }
+        @media screen and (max-width: 900px) {
+            #moneybarwrap {
+                position: absolute;
+            min-width: 135px;
+            top: 0px;
+            right: 0px;
+            -webkit-user-select: none;
+            user-select: none;
+
+            position: relative;
+            min-width: 135px;
+            z-index: -1;
+            top: 0;
+            -webkit-user-select: none;
+            user-select: none;
+                right: 45%;
+            }   
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div id="moneybarwrap">
+        <div id="moneybar">
+            <table id="yeahhh">
+                <tr id="moneybarrow1" class="money-bar-row">
+                    <td class="moneybararrowcell"><img src="images/arrow.png" id="p1arrow" class="money-bar-arrow"
+                            alt=">" /></td>
+                    <td id="p1moneybar" class="moneybarcell">
+                        <div><span id="p1moneyname">Player 1</span>:</div>
+                        <div>$<span id="p1money">1500</span></div>
+                    </td>
+                </tr>
+                <tr id="moneybarrow2" class="money-bar-row">
+                    <td class="moneybararrowcell"><img src="images/arrow.png" id="p2arrow" class="money-bar-arrow"
+                            alt=">" /></td>
+                    <td id="p2moneybar" class="moneybarcell">
+                        <div><span id="p2moneyname">Player 2</span>:</div>
+                        <div>$<span id="p2money">1500</span></div>
+                    </td>
+                </tr>
+                <tr id="moneybarrow3" class="money-bar-row">
+                    <td class="moneybararrowcell"><img src="images/arrow.png" id="p3arrow" class="money-bar-arrow"
+                            alt=">" /></td>
+                    <td id="p3moneybar" class="moneybarcell">
+                        <div><span id="p3moneyname">Player 3</span>:</div>
+                        <div>$<span id="p3money">1500</span></div>
+                    </td>
+                </tr>
+                <tr id="moneybarrow4" class="money-bar-row">
+                    <td class="moneybararrowcell"><img src="images/arrow.png" id="p4arrow" class="money-bar-arrow"
+                            alt=">" /></td>
+                    <td id="p4moneybar" class="moneybarcell">
+                        <div><span id="p4moneyname">Player 4</span>:</div>
+                        <div>$<span id="p4money">1500</span></div>
+                    </td>
+                </tr>
+                <tr id="moneybarrow5" class="money-bar-row">
+                    <td class="moneybararrowcell"><img src="images/arrow.png" id="p5arrow" class="money-bar-arrow"
+                            alt=">" /></td>
+                    <td id="p5moneybar" class="moneybarcell">
+                        <div><span id="p5moneyname">Player 5</span>:</div>
+                        <div>$<span id="p5money">1500</span></div>
+                    </td>
+                </tr>
+                <tr id="moneybarrow6" class="money-bar-row">
+                    <td class="moneybararrowcell"><img src="images/arrow.png" id="p6arrow" class="money-bar-arrow"
+                            alt=">" /></td>
+                    <td id="p6moneybar" class="moneybarcell">
+                        <div><span id="p6moneyname">Player 6</span>:</div>
+                        <div>$<span id="p6money">1500</span></div>
+                    </td>
+                </tr>
+                <tr id="moneybarrow7" class="money-bar-row">
+                    <td class="moneybararrowcell"><img src="images/arrow.png" id="p7arrow" class="money-bar-arrow"
+                            alt=">" /></td>
+                    <td id="p7moneybar" class="moneybarcell">
+                        <div><span id="p7moneyname">Player 7</span>:</div>
+                        <div>$<span id="p7money">1500</span></div>
+                    </td>
+                </tr>
+                <tr id="moneybarrow8" class="money-bar-row">
+                    <td class="moneybararrowcell"><img src="images/arrow.png" id="p8arrow" class="money-bar-arrow"
+                            alt=">" /></td>
+                    <td id="p8moneybar" class="moneybarcell">
+                        <div><span id="p8moneyname">Player 8</span>:</div>
+                        <div>$<span id="p8money">1500</span></div>
+                    </td>
+                </tr>
+                <tr id="moneybarrowbutton">
+                    <td class="moneybararrowcell">&nbsp;</td>
+                    <td style="border: none;">
+                        <input type="button" id="viewstats" value="View stats"
+                            title="View a pop-up window that shows a list of each player's properties." />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
