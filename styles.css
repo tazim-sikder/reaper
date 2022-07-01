@@ -1051,6 +1051,7 @@ td {
    }
    #setup {
     min-width: 400px;
+    margin-left: 0;
    }
    
   }
