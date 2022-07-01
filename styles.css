@@ -1159,7 +1159,9 @@ td {
 
     }
     body {
+      /*
       width:fit-content;
+      */
      width:auto;
     }
   
