@@ -1138,12 +1138,9 @@ td {
 */
   }
   @media screen and (max-width: 480px) {
-    html {
-    width: 100%;
-    overflow-x: hidden;
-    }
+ 
     body {
-      transform: scale(.50);   
+      transform: scale(.60);   
       margin-left: -240px;
       
    }
@@ -1187,5 +1184,6 @@ td {
     */
     #setup {
       margin-top: 140px;
+      margin-left: -30px;
     }
   }
