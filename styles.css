@@ -1045,13 +1045,12 @@ td {
 
   @media screen and (max-width: 1000px) {
 
-    body{
+    #setup, #board, #popup, #control{
     
       transform: scale(.70);   
    }
    #setup {
     min-width: 330px;
-    margin-left: -60px;
    }
    
   }
