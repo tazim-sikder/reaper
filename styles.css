@@ -1087,11 +1087,11 @@ td {
   @media screen and (max-width: 780px) {
 
     #board {
-      transform: scale(.90);   
+      transform: scale(.80);   
    }
    
    #control {
-     transform: scale(.90);
+     transform: scale(.80);
    }
    body {
      width:fit-content;
@@ -1114,8 +1114,8 @@ td {
       top: 20%;
       right: 0;
       
-      margin-left: 200px;
-      margin-top: 140px;
+      margin-left: 100px;
+      margin-top: 10px;
     
   }
 
@@ -1123,20 +1123,20 @@ td {
   @media screen and (max-width: 630px) {
 
     #board {
-      transform: scale(.90);   
+      transform: scale(.80);
    }
    
    #control {
-     transform: scale(.90);
+     transform: scale(.80);
    }
    body {
      width:fit-content;
      width:auto;
    }
     #setup {
-      margin-top: 140px;
+      margin-top: 40px;
 
-      margin-left: 200px;
+      margin-left: 30px;
   }
 
   }
