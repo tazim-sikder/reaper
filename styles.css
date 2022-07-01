@@ -1050,8 +1050,8 @@ td {
       transform: scale(.70);   
    }
    #setup {
-    min-width: 400px;
-    margin-left: 0;
+    min-width: 330px;
+    margin-left: -20px;
    }
    
   }
