@@ -1155,6 +1155,9 @@ td {
     transform: scale(.7);
     margin-left: -80px;
    }
+   #moneybarwrap {
+    right: 65%;
+   }
  /*
     #board {
    
