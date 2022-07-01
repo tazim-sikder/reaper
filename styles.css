@@ -1103,7 +1103,7 @@ td {
       top: 20%;
       right: 0;
       
-      margin-left: 200px;
+      margin-left: 100px;
       margin-top: 140px;
     
   }
@@ -1125,7 +1125,7 @@ td {
     #setup {
       margin-top: 140px;
 
-      margin-left: 200px;
+      margin-left: 30px;
   }
 
   }
@@ -1137,7 +1137,7 @@ td {
        */
        transform: scale(.70);   
 
-       margin-left: -3px;
+       margin-left: 33px;
     }
     #control {
       /*
@@ -1145,6 +1145,8 @@ td {
       */
       transform: scale(.70);   
       margin-top: 50px;
+      margin-left: 33px;
+
     }
     body {
       width:fit-content;
@@ -1159,7 +1161,7 @@ td {
         background-color: white;
         border-radius: 40px;
         max-width: 450px;
-        min-width: 300px;
+        min-width: 400px;
         padding: 30px;
         /*
         margin: 110px auto;
@@ -1168,7 +1170,7 @@ td {
         left: 0;
         top: 40%;
         right: 0;
-        margin-top: 50px;
+        margin-top: 20px;
         margin-left: -10px;
     }
   }
