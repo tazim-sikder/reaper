@@ -967,9 +967,6 @@ td {
   background-color: #efe9d5;
 }
 #start-btn {
-  /*
-	background-color: #305bc9;
-  */
   background-color: #6e0707;
 
   color: white;
@@ -981,11 +978,9 @@ td {
   cursor: pointer;
 }
 #start-btn:hover {
-  background-color: #5b89ff;
   background-color: #6e0707;
 }
 #nextbutton {
-  background-color: #305bc9;
   background-color: #6e0707;
 
   color: white;
@@ -997,7 +992,6 @@ td {
 }
 #proposetradebutton,
 #canceltradebutton {
-  background-color: #305bc9;
   background-color: #6e0707;
 
   color: white;
@@ -1008,7 +1002,6 @@ td {
   cursor: pointer;
 }
 #viewstats {
-  background-color: #305bc9;
   background-color: #6e0707;
 
   color: white;
@@ -1023,12 +1016,7 @@ td {
   user-select: none;
   cursor: move;
 }
-#moneybarwrap {
-  cursor: move;
 
-  /* Doesn't allow to select the content inside */
-  user-select: none;
-}
 
 @media screen and (max-width: 1000px) {
 
