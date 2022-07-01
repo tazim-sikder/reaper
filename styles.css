@@ -1138,12 +1138,13 @@ td {
 */
   }
   @media screen and (max-width: 480px) {
-
-    * {
-      overflow-x:hidden;
+    html {
+    width: 100%;
+    overflow-x: hidden;
     }
     body {
       transform: scale(.50);   
+      margin-left: -240px;
       
    }
  /*
@@ -1185,7 +1186,6 @@ td {
     }
     */
     #setup {
-      margin-left: -110px;
-      margin-top: 40px;
+      margin-top: 140px;
     }
   }
