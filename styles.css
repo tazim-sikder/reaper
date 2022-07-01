@@ -1040,7 +1040,7 @@ td {
   #board,
   #popup,
   #control {
-    transform: scale(0.6);
+    transform: scale(0.3);
     margin-left: -172px;
   }
   #popup {
