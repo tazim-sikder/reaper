@@ -1151,7 +1151,7 @@ td {
    }
    #setup {
     transform: scale(.7);
-    width: 90%;
+    margin-left: -80px;
    }
  /*
     #board {
