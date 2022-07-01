@@ -1051,6 +1051,7 @@ td {
    }
    #board, #popup, #control {
       transform: scale(.50);
+      margin-left: -50px;
    }
    #setup {
     min-width: 330px;
