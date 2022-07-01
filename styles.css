@@ -1043,137 +1043,14 @@ td {
 
 
 
-  @media screen and (max-width: 980px) {
+  @media screen and (max-width: 1000px) {
 
-    body {
+    body{
     
-      transform: scale(.80);   
+      transform: scale(.70);   
    }
-   /**
-   #popup {
-    margin-top: 50px;
-    margin-left: 310px;
-    width: 200px;
-    min-width: 200px;
-
-  }
-   #control {
-     transform: scale(.90);
-   }
-   body {
-     width:auto;
-   }
-    #setup {
-  
-      display: none;
-      margin: 15px;
-      text-align: center;
-      background-color: white;
-      border-radius: 40px;
-      max-width: 450px;
-      padding: 30px;
-    
-      position: absolute;
-      left: 0;
-      top: 20%;
-      right: 0;
-      margin-top: 140px;
-      margin-left: 200px;
-  }
-  */
-  }
-  @media screen and (max-width: 780px) {
-/*
-    #board {
-      transform: scale(.80);   
+   #setup {
+    min-width: 400px;
    }
    
-   #control {
-     transform: scale(.80);
-   }
-   body {
-     width:fit-content;
-     width:auto;
-   }
-    #setup {
-  
-      display: none;
-      margin: 15px;
-      text-align: center;
-      background-color: white;
-      border-radius: 40px;
-      max-width: 450px;
-      padding: 30px;
-
-      position: absolute;
-      left: 0;
-      top: 20%;
-      right: 0;
-      
-      margin-left: 100px;
-      margin-top: 10px;
-    
-  }
-*/
-  }
-  @media screen and (max-width: 630px) {
-/*
-    #board {
-      transform: scale(.80);
-   }
-   
-   #control {
-     transform: scale(.80);
-   }
-   body {
-     width:fit-content;
-     width:auto;
-   }
-    #setup {
-      margin-top: 40px;
-
-      margin-left: 30px;
-  }
-*/
-  }
-  @media screen and (max-width: 480px) {
-    body {
-      margin-left: -180px;
-    }
-    #board {
-   
-       transform: scale(.80);   
-    }
-    #control {
- 
-      transform: scale(.80);   
-      margin-top: 50px;
-  
-
-    }
-    body {
-  
-     width:auto;
-    }
-  
-    #setup {
-      transform: scale(.90);   
-  
-        display: none;
-        margin: 15px;
-        text-align: center;
-        background-color: white;
-        border-radius: 40px;
-        max-width: 450px;
-        min-width: 400px;
-        padding: 30px;
- 
-        position: absolute;
-        left: 0;
-        top: 40%;
-        right: 0;
-        margin-top: 100px;
-        margin-left: 90px;
-    }
-    
   }
