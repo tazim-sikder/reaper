@@ -1147,7 +1147,7 @@ td {
        transform: scale(.50);   
        */
        transform: scale(.70);   
-      margin: 0 auto;
+       margin-bottom: -110px;
     }
     #control {
       /*
@@ -1159,9 +1159,10 @@ td {
 
     }
     body {
-      
+      /*
       width:fit-content;
-      
+      */
+     width:auto;
     }
   
     #setup {
