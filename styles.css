@@ -1,9 +1,9 @@
 body {
   background: #000000;
   margin: 0px;
-  min-width: 1075px;
   background-image: url("./images/background.jpg");
   background-position-x: -400px;
+  min-width: 1075px;
 }
 
 
@@ -1138,21 +1138,20 @@ td {
 */
   }
   @media screen and (max-width: 480px) {
- 
+
     body {
-      /*
-      transform: scale(.70);   
-      */
-     width: 40vw;  
+      
    }
    #board {
-    transform: scale(.8);
+    transform: scale(.6);
+
    }
    #control {
     transform: scale(.8);
    }
    #setup {
-    transform: scale(.8);
+    transform: scale(.7);
+    width: 90%;
    }
  /*
     #board {
