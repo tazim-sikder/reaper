@@ -1143,14 +1143,14 @@ td {
       /*
       transform: scale(.70);   
       */
-     width: 70vw;  
-     height: 70vw;
+     width: 50vw;  
    }
-   * {
-    width: 90vw;
-    height: 90vw;
+   #board {
+    transform: scale(.8);
    }
-  
+   #control {
+    transform: scale(.8);
+   }
  /*
     #board {
    
