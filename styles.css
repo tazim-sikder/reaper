@@ -1135,7 +1135,7 @@ td {
       /*
        transform: scale(.50);   
        */
-       transform: scale(.50);   
+       transform: scale(.70);   
 
        margin-left: -3px;
     }
@@ -1143,7 +1143,7 @@ td {
       /*
        transform: scale(.50);   
       */
-      transform: scale(.50);   
+      transform: scale(.70);   
       margin-top: 50px;
     }
     body {
@@ -1168,7 +1168,7 @@ td {
         left: 0;
         top: 20%;
         right: 0;
-        margin-top: 140px;
+        margin-top: 100px;
         margin-left: -10px;
     }
   }
