@@ -1147,6 +1147,7 @@ td {
        transform: scale(.50);   
        */
        transform: scale(.70);   
+       margin-left: -3px;
        margin-bottom: -110px;
     }
     #control {
@@ -1155,7 +1156,7 @@ td {
       */
       transform: scale(.70);   
       margin-top: 50px;
-      margin-left: 33px;
+  
 
     }
     body {
