@@ -1157,7 +1157,7 @@ td {
     }
   
     #setup {
-      transform: scale(.80);   
+      transform: scale(.90);   
   
         display: none;
         margin: 15px;
@@ -1173,7 +1173,7 @@ td {
         top: 40%;
         right: 0;
         margin-top: 100px;
-        margin-left: 70px;
+        margin-left: 90px;
     }
     
   }
