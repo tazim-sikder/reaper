@@ -1140,7 +1140,7 @@ td {
   @media screen and (max-width: 480px) {
  
     body {
-      transform: scale(.60);   
+      transform: scale(.70);   
       margin: 0 auto;
       
    }
