@@ -1035,12 +1035,12 @@ td {
   #board,
   #popup,
   #control {
-    transform: scale(0.7);
+    transform: scale(0.5);
   }
   #board,
   #popup,
   #control {
-    transform: scale(0.7);
+    transform: scale(0.5);
     margin-left: -82px;
   }
   #setup {
