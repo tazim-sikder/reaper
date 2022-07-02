@@ -1102,6 +1102,7 @@ td {
   }
   #setup {
     min-width: 330px;
+    margin-top: -20px;
   }
   #control {
     margin-top: -60px;
