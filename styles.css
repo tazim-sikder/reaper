@@ -1047,7 +1047,7 @@ td {
   #board,
   #popup,
   #control {
-    transform: scale(0.6);
+    transform: scale(0.7);
   }
   #board {
     width: 960px;
@@ -1055,7 +1055,7 @@ td {
   #board,
   #popup,
   #control {
-    transform: scale(0.6);
+    transform: scale(0.5);
     margin-left: -172px;
   }
   #popup {
