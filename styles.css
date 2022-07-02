@@ -1118,12 +1118,13 @@ td {
       margin-left: -202px;
     
     }
+
   }
   @media screen and (max-width: 800px) {
     #board,
     #control {
       transform: scale(0.5);
-      margin-left: -212px;
+      margin-left: -112px;
     
     }
     #setup {
