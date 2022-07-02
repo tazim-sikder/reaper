@@ -1126,6 +1126,9 @@ td {
       margin-left: -212px;
     
     }
+    #setup {
+      margin-top: -40px;
+    }
   }
   @media screen and (max-width: 500px) {
     #board,
@@ -1133,6 +1136,9 @@ td {
       transform: scale(0.5);
       margin-left: -238px;
     
+    }
+    #setup {
+      margin-top: -50px;
     }
   }
 }
