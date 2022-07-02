@@ -871,8 +871,8 @@ td {
   #moneybarwrap {
     position: absolute;
     min-width: 135px;
-    top: 250px;
-    left: 540px;
+    top: 650px;
+    left: 240px;
     -webkit-user-select: none;
     user-select: none;
   }
