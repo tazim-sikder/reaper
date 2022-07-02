@@ -1066,10 +1066,10 @@ td {
     min-width: 330px;
   }
   #control {
-    margin-top: 60px;
+    margin-top: -50px;
   }
   #board {
     position: relative;
-    margin-bottom: -130px;
+    margin-top: -70px;
   }
 }
