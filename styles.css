@@ -930,7 +930,6 @@ td {
 }
 .bottom-card {
   position: absolute;
-  height: 122px;
   height: 126px;
   height: 128px;
   left: -1.1px;
@@ -945,7 +944,6 @@ td {
 }
 .top-card {
   position: absolute;
-  height: 122px;
   height: 126px;
   height: 128px;
   left: -1.1px;
@@ -959,7 +957,6 @@ td {
 }
 .corner-card {
   position: absolute;
-  height: 122px;
   height: 126px;
   height: 128px;
   left: -1.1px;
@@ -992,7 +989,6 @@ td {
 }
 .right-card {
   position: absolute;
-  height: 122px;
   height: 126px;
   height: 128px;
   transform: rotate(-90deg);
@@ -1009,7 +1005,6 @@ td {
 }
 .left-card {
   position: absolute;
-  height: 122px;
   height: 126px;
   height: 128px;
   transform: rotate(90deg);
@@ -1077,7 +1072,9 @@ td {
   #control {
     transform: scale(0.9);
   }
+ 
 }
+
 @media screen and (max-width: 1000px) {
 
   #setup,
@@ -1100,7 +1097,6 @@ td {
   }
   #popup {
     margin-left: 140px;
-    margin-top: 60px;
   }
   #setup {
     min-width: 330px;
@@ -1114,7 +1110,6 @@ td {
   }
   @media screen and (max-width: 999px) {
     #board,
-    #popup,
     #control {
       transform: scale(0.5);
       margin-left: -202px;
@@ -1123,7 +1118,6 @@ td {
   }
   @media screen and (max-width: 800px) {
     #board,
-    #popup,
     #control {
       transform: scale(0.5);
       margin-left: -212px;
@@ -1132,11 +1126,15 @@ td {
   }
   @media screen and (max-width: 500px) {
     #board,
-    #popup,
     #control {
       transform: scale(0.5);
       margin-left: -238px;
     
     }
+  }
+}
+@media screen and (min-width: 1100px) {
+  #popup {
+    margin-left: 330px;
   }
 }
