@@ -1051,6 +1051,7 @@ td {
   }
   #board {
     width: 960px;
+    padding-right: 20px;
   }
   #board,
   #popup,
