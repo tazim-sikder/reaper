@@ -918,7 +918,18 @@ td {
     user-select: none;
   }
 }
+@media screen and (max-width: 400px) {
+  #moneybarwrap {
+    position: absolute;
+    min-width: 135px;
+    top: 650px;
 
+    left: 190px;
+
+    -webkit-user-select: none;
+    user-select: none;
+  }
+}
 .board-center {
   position: relative;
 }
