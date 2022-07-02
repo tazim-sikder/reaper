@@ -865,7 +865,7 @@ td {
   position: absolute;
   min-width: 135px;
   top: 80px;
-  left: 1020px;
+  left: 940px;
   -webkit-user-select: none;
   user-select: none;
 }
@@ -874,7 +874,7 @@ td {
     position: absolute;
     min-width: 135px;
     top: 80px;
-    left: 960px;
+    left: 930px;
     -webkit-user-select: none;
     user-select: none;
   }
@@ -884,7 +884,9 @@ td {
     position: absolute;
     min-width: 135px;
     top: 650px;
+    top: 150px;
     left: 240px;
+    left: 510px;
     -webkit-user-select: none;
     user-select: none;
   }
@@ -894,7 +896,10 @@ td {
     position: absolute;
     min-width: 135px;
     top: 650px;
+    top: 150px;
+
     left: 180px;
+    left: 510px;
     -webkit-user-select: none;
     user-select: none;
   }
@@ -904,7 +909,11 @@ td {
     position: absolute;
     min-width: 135px;
     top: 650px;
+    top: 150px;
+
     left: 190px;
+    left: 480px;
+
     -webkit-user-select: none;
     user-select: none;
   }
