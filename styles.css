@@ -887,12 +887,12 @@ td {
     user-select: none;
   }
 }
-@media screen and (max-width: 801px) {
+@media screen and (max-width: 890px) {
   #moneybarwrap {
     position: absolute;
     min-width: 135px;
     top: 650px;
-    left: 200px;
+    left: 180px;
     -webkit-user-select: none;
     user-select: none;
   }
@@ -1117,7 +1117,7 @@ td {
     #popup,
     #control {
       transform: scale(0.5);
-      margin-left: -102px;
+      margin-left: -202px;
     
     }
   }
@@ -1126,7 +1126,7 @@ td {
     #popup,
     #control {
       transform: scale(0.5);
-      margin-left: -172px;
+      margin-left: -212px;
     
     }
   }
@@ -1135,7 +1135,7 @@ td {
     #popup,
     #control {
       transform: scale(0.5);
-      margin-left: -172px;
+      margin-left: -238px;
     
     }
   }
