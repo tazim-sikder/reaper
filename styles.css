@@ -6,7 +6,7 @@ body {
   /*
   min-width: 1075px;
   */
-  min-width: 1020px;
+  min-width: 700px;
 
 }
 
@@ -1049,9 +1049,11 @@ td {
   #control {
     transform: scale(0.7);
   }
+  body {
+    padding-right: 40px;
+  }
   #board {
     width: 960px;
-    padding-right: 20px;
   }
   #board,
   #popup,
