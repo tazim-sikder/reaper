@@ -1049,9 +1049,7 @@ td {
   #control {
     transform: scale(0.7);
   }
-  body {
-    padding-right: 40px;
-  }
+
   #board {
     width: 960px;
   }
@@ -1059,7 +1057,7 @@ td {
   #popup,
   #control {
     transform: scale(0.5);
-    margin-left: -172px;
+  
   }
   #popup {
     margin-left: 140px;
