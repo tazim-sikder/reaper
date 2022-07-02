@@ -3,11 +3,11 @@ body {
   margin: 0px;
   background-image: url("./images/background.jpg");
   background-position-x: -400px;
-  /*
   min-width: 1075px;
-  */
+  /*
+  
   min-width: 630px;
-
+*/
 }
 
 td {
