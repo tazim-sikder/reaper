@@ -3,7 +3,9 @@ body {
   margin: 0px;
   background-image: url("./images/background.jpg");
   background-position-x: -400px;
+  /*
   min-width: 1075px;
+  */
 }
 
 td {
@@ -1025,6 +1027,9 @@ td {
   #popup,
   #control {
     transform: scale(0.7);
+  }
+  #board {
+    width: 960px;
   }
   #board,
   #popup,
