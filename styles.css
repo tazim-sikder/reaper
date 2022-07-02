@@ -1115,7 +1115,7 @@ td {
     #board,
     #control {
       transform: scale(0.5);
-      margin-left: -102px;
+      margin-left: -52px;
     
     }
 
@@ -1124,7 +1124,7 @@ td {
     #board,
     #control {
       transform: scale(0.5);
-      margin-left: -112px;
+      margin-left: -52px;
     
     }
     #setup {
