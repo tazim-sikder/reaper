@@ -6,6 +6,8 @@ body {
   /*
   min-width: 1075px;
   */
+  min-width: 675px;
+
 }
 
 td {
@@ -819,7 +821,7 @@ td {
   font-weight: bold;
   border-spacing: 1px;
 }
-
+/*
 #moneybarwrap {
   position: absolute;
   min-width: 135px;
@@ -855,7 +857,26 @@ td {
     right: 655px;
   }
 }
+*/
 
+#moneybarwrap {
+  position: absolute;
+  min-width: 135px;
+  top: 80px;
+  left: 1020px;
+  -webkit-user-select: none;
+  user-select: none;
+}
+@media screen and (max-width: 1000px) {
+  #moneybarwrap {
+    position: absolute;
+    min-width: 135px;
+    top: 220px;
+    left: 600px;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+}
 .board-center {
   position: relative;
 }
