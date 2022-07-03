@@ -1114,10 +1114,12 @@ td {
     transform: scale(0.5);
     margin-left: -172px;
     margin-left: -238px;
+    
   
   }
   #popup {
     margin-left: 140px;
+    margin-top: -20px;
   }
   #setup {
     min-width: 330px;
@@ -1125,10 +1127,12 @@ td {
   }
   #control {
     margin-top: -60px;
+    margin-top: -80px;
   }
   #board {
     position: relative;
     margin-top: -80px;
+    margin-top: -100px;
   }
   @media screen and (max-width: 999px) {
     #board,
