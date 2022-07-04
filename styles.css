@@ -1,7 +1,9 @@
 body {
   background: #000000;
   margin: 0px;
-  background-image: url("./images/My\ project\ \(5\).png");
+  background-image: url("./images/teahub.io-best-skull-wallpaper-1299295.jpg");
+  background-size: cover;
+  /*
   background-position-x: -400px;
   /*
   min-width: 1075px;
@@ -1141,6 +1143,10 @@ td {
 
   }
   @media screen and (max-width: 800px) {
+    body {
+      background-image: url("./images/teahub.io-best-skull-wallpaper-1299295.jpg");
+      background-position-x: -100px;
+    }
     #board,
     #control {
       transform: scale(0.5);
