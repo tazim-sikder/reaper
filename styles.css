@@ -1,8 +1,7 @@
 body {
   background: #000000;
   margin: 0px;
-  background-image: url("./images/teahub.io-best-skull-wallpaper-1299295.jpg");
-  background-size: cover;
+  background-image: url("./images/skull_texture_background_shadow_55295_1920x1080\ -\ Copy.jpg");
   /*
   background-position-x: -400px;
   /*
@@ -1144,8 +1143,7 @@ td {
   }
   @media screen and (max-width: 800px) {
     body {
-      background-image: url("./images/teahub.io-best-skull-wallpaper-1299295.jpg");
-      background-position-x: -100px;
+      
     }
     #board,
     #control {
