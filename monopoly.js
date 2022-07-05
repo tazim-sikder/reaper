@@ -3218,7 +3218,7 @@ window.onload = function () {
   document.getElementById("enlarge20price").innerHTML +=
     "<img src='images/free_parking_icon.png' height='80' width='72' alt='' style='position: relative; top: -20px;' />";
   document.getElementById("enlarge38token").innerHTML +=
-    '<img src="images/tax_icon.png" height="60" width="70" alt="" style="position: relative; top: -20px;" />';
+    '<img src="images/tax_icon.svg" height="100" width="110" alt="" style="position: relative; top: -45px;" />';
 
   corrections();
 
