@@ -7,6 +7,7 @@ body {
   /*
   min-width: 1075px;
   */
+  background-repeat: no-repeat;
   min-width: 630px;
 }
 
@@ -1085,7 +1086,32 @@ td {
 #popup {
   border-top: 25px solid #6e0707;
 }
+@media screen and (min-width: 1100px) {
+  #popup {
+    margin-left: 330px;
+  }
+}
 
+@media screen and (min-width: 1500px) {
+  #board,
+  #control,
+  #moneybarwrap {
+    margin-left: 200px;
+  }
+  #popup {
+    margin-left: 500px;
+  }
+}
+@media screen and (min-width: 1700px) {
+  #board,
+  #control,
+  #moneybarwrap {
+    margin-left: 300px;
+  }
+  #popup {
+    margin-left: 600px;
+  }
+}
 @media screen and (max-width: 1300px) {
   #board,
   #popup,
@@ -1167,8 +1193,4 @@ td {
     }
   }
 }
-@media screen and (min-width: 1100px) {
-  #popup {
-    margin-left: 330px;
-  }
-}
+
