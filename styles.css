@@ -963,7 +963,9 @@ td {
   position: absolute;
   height: 126px;
   height: 128px;
+  height: 128.5px;
   left: -1.1px;
+  left: -2.7px;
   top: -1px;
 }
 .board-corner {
@@ -976,11 +978,13 @@ td {
   position: absolute;
   height: 126px;
   height: 128px;
+  height: 129px;
   left: -1.1px;
 }
 .board-corner {
   position: relative;
   height: 120px;
+
   background-position: center;
   color: rgba(96, 1, 1, 0);
 }
@@ -989,13 +993,18 @@ td {
   top: -4px;
 }
 .the-top1 {
-  left: -1.95px;
+  left: -2.95px;
   top: -4px;
+}
+.top1-card {
+  width: 130.5px;
+
 }
 /* wary */
 .the-bottom {
   left: -3.5px;
   height: 128px;
+
 }
 .board-right {
   position: relative;
@@ -1008,8 +1017,11 @@ td {
   position: absolute;
   height: 126px;
   height: 128px;
+  height: 129px;
+
   transform: rotate(-90deg);
   bottom: -27px;
+  bottom: -28.5px;
   left: 24px;
   right: 20px;
 }
@@ -1023,7 +1035,7 @@ td {
 .left-card {
   position: absolute;
   height: 126px;
-  height: 128px;
+  height: 129px;
   transform: rotate(90deg);
   bottom: -24px;
   right: 24px;
