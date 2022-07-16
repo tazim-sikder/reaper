@@ -299,7 +299,7 @@
 					src="./Final svgs (1)/Final svgs/small/Reaperopoly-Boardspace-01-Misery Avenue.svg" />
 			</td>
 			<td class="cell board-corner" id="cell0">
-				<img class="corner-card" id="suree"
+				<img class="corner-card" id="go-card"
 					src="./Final svgs (1)/Final svgs/small/Reaperopoly-Boardspace-00-Go.svg" />
 			</td>
 		</tr>
@@ -624,11 +624,11 @@
 		</div>
 	</div>
 
-	<div id="control">
+	<div id="control" style="width: 280px;">
 		<table>
 			<tr>
 				<td style="text-align: left; vertical-align: top; border: none;">
-					<div id="menu">
+					<div id="menu" style="width: 280px; margin-left: 1px;">
 						<table id="menutable" cellspacing="0">
 							<tr>
 								<td class="menu-item" id="buy-menu-item">
@@ -651,8 +651,8 @@
 					</div>
 
 					<div id="buy">
-						<div id="alert"></div>
-						<div id="landed"></div>
+						<div id="alert" style="width: 280px; height: 200px;"></div>
+						<div id="landed" style="width: 280px;"></div>
 					</div>
 
 					<div id="manage">
@@ -665,23 +665,22 @@
 						<div id="owned"></div>
 					</div>
 				</td>
-				<td style="vertical-align: top; border: none;">
-					<div id="quickstats" style="">
-						<div><span id="pname">Player 1</span>:</div>
+				<td style="vertical-align: top; border: none; margin: 0 auto;">
+					<div id="quickstats" style="margin-top: 280px; margin-left: -210px;">
+						<div><span style="font-size: 15px;" id="pname">Player 1</span>:</div>
 						<div><span id="pmoney">$1500</span></div>
 					</div>
-					<div>
+					<div style="margin-top: -5px; margin-left: -210px;">
 						<div id="die0" title="Die" class="die die-no-img"></div>
 						<div id="die1" title="Die" class="die die-no-img"></div>
 					</div>
-
 				</td>
 			</tr>
 			<tr>
 				<td colspan="2" style="border: none">
 					<div style="padding-top: 8px;">
 						<input type="button" id="nextbutton" title="Roll the dice and move your token accordingly."
-							value="Roll Dice" />
+							value="Roll Dice" style="margin-left: -20px;"/>
 						<input type="button" id="resignbutton"
 							title="If you cannot pay your debt then you must resign from the game." value="Resign"
 							onclick="game.resign();" />

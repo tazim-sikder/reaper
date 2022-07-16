@@ -82,6 +82,7 @@ td {
   z-index: 9;
   top: 250px;
   left: 250px;
+  left: 860px;
   border: 2px solid black;
   padding: 10px;
   display: none;
@@ -875,6 +876,16 @@ td {
   -webkit-user-select: none;
   user-select: none;
 }
+@media screen and (max-width: 1300px) {
+  #moneybarwrap {
+    position: absolute;
+    min-width: 135px;
+    top: 80px;
+    left: 940px;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+}
 @media screen and (max-width: 1100px) {
   #moneybarwrap {
     position: absolute;
@@ -1000,6 +1011,9 @@ td {
   width: 130.5px;
 
 }
+#go-card {
+  top: -2px;
+}
 /* wary */
 .the-bottom {
   left: -3.5px;
@@ -1103,6 +1117,10 @@ td {
   #popup {
     margin-left: 330px;
   }
+  #control {
+    left:980px;
+    top: 280px;
+  }
 }
 
 @media screen and (min-width: 1500px) {
@@ -1114,6 +1132,9 @@ td {
   #popup {
     margin-left: 500px;
   }
+  #control {
+    left:980px;
+  }
 }
 @media screen and (min-width: 1700px) {
   #board,
@@ -1124,6 +1145,9 @@ td {
   #popup {
     margin-left: 600px;
   }
+  #control {
+    left:960px;
+  }
 }
 @media screen and (max-width: 1300px) {
   #board,
@@ -1132,7 +1156,9 @@ td {
   #trade {
     transform: scale(0.9);
   }
- 
+  #control {
+    left:930px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -1171,14 +1197,21 @@ td {
     position: relative;
     margin-top: -80px;
   }
-  @media screen and (max-width: 999px) {
+  #control {
+    left:960px;
+  }
+  @media screen and (max-width: 1000px) {
     #board,
     #control {
       transform: scale(0.5);
       margin-left: -202px;
     
     }
+    #control {
+      left:650px;
+      top: 300px;
 
+    }
   }
   @media screen and (max-width: 800px) {
     body {
