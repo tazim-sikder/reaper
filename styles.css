@@ -81,6 +81,7 @@ td {
   position: absolute;
   z-index: 9;
   top: 250px;
+  top: 260px;
   left: 250px;
   left: 860px;
   border: 2px solid black;
@@ -1209,7 +1210,7 @@ td {
     }
     #control {
       left:650px;
-      top: 300px;
+      top: 310px;
 
     }
   }
