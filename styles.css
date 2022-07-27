@@ -3,8 +3,6 @@ body {
   margin: 0px;
   background-image: url("./images/Reaper_pattern_wallpaper.jpg");
   /*
-  background-position-x: -400px;
-  /*
   min-width: 1075px;
   */
   background-size: cover;
@@ -57,9 +55,6 @@ td {
 
 #board {
   display: none;
-  /*
-	border: 2px solid rgb(255, 255, 255);
-	*/
   border: 2px solid rgb(0, 0, 0);
 
   border-spacing: 3px;
@@ -756,10 +751,10 @@ td {
 .cell-position {
   height: 12px;
   width: 12px;
-  height: 25px;
   height: 28px;
-  width: 25px;
+  height: 30px;
   width: 28px;
+  width: 30px;
   position: absolute;
   top: 0px;
   left: 0px;
